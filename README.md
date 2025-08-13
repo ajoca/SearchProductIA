@@ -159,24 +159,6 @@ docker ps
 docker stop <container_id>
 ```
 
-Ejemplo de `Dockerfile`:
-```dockerfile
-FROM node:18
-
-WORKDIR /app
-
-COPY package*.json ./
-RUN npm install
-
-COPY . .
-
-EXPOSE 3000
-
-CMD ["npm", "start"]
-```
-
----
-
 ## 📜 Licencia
 
 Este proyecto está bajo la licencia MIT.
@@ -185,4 +167,4 @@ Este proyecto está bajo la licencia MIT.
 
 ## ✨ Autor
 
-Desarrollado por **[Alan Canto](https://github.com/ajoca)** 🚀
+Desarrollado por **[Alan Canto](https://github.com/ajoca)** 
