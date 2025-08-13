@@ -138,9 +138,6 @@ Podrás probar todos los endpoints directamente desde la interfaz Swagger, inclu
 - Buscar usando IA
 - Gestionar usuarios y login
 
-Ejemplo visual:
-
-![Swagger Example](docs/swagger_example.png)
 
 ---
 
